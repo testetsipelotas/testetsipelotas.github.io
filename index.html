@@ -4,110 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        *,
-        *::before,
-        *::after{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            background-color: aqua;
-            
-        }
-        .menu{
-            width: 60px;
-            height: 60px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            position: fixed;
-            bottom: 25px;
-            right: 25px;
-            cursor: pointer;
-            box-shadow: 0 0 0 0 #ffffff, 0 0 0 0 #ffffff;
-            transition: box-shadow 1.1s cubic-bezier(.19,1,.22,1);
-        }
-        .menu:hover{
-            box-shadow: 0 0 0 8px #ffffff, 0 0 0 8px #ffffff
-        }
-        .hamburguer{
-            display: block;
-            background-color: black;
-            width: 30px;
-            height: 2px;
-            position: relative;
-            top: 30px;
-            left:14px;
-            transition: .5s ease-in-out;
-        }
-        .hamburguer::before,
-        .hamburguer::after{
-            background-color: black;
-            content: '';
-            display: block;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            transition: .5s ease-in-out;
-        }
-        .hamburguer::before{
-            top: -10px;
-        }
-        .hamburguer::after{
-            bottom: -10px;
-        }
-        input{
-            display: none;
-        }
-        input:checked ~ ul{
-            opacity: 1;
-        }
-        input:checked ~ label .menu{
-            box-shadow: 0 0 0 130vw #e09b9b, 0 0 0 130vh #e09b9b;
-        }
-
-        input:checked ~ label .hamburguer{
-            transform: rotate(45deg);
-        }
-        input:checked ~ label .hamburguer::before{
-            transform: rotate(90deg);
-            top: 0px;
-        }
-        input:checked ~ label .hamburguer::after{
-            transform: rotate(90deg);
-            bottom: 0px;
-        }
-        ul{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            list-style: none;
-            opacity: 0;
-            transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
-        }
-        a{
-            display: block;
-            margin-bottom: 10vh;
-            color: aqua;
-            font-size: 47px;
-            text-decoration: none;
-        }
-    </style>
+    <title>Luciano Mello</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-    <input id="menu-hamburguer" type="checkbox">
-    <label for="menu-hamburguer">
-        <div class="menu">
-            <span class="hamburguer"></span>
+    <div class="grid">
+        <header class="header">        
+            <a href="https://www.facebook.com/lucianomellomusic/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lucianomellomusic/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/lucianobmello"><i class="fab fa-twitter"></i></a>
+            <a href="https://open.spotify.com/artist/1czaUSU8DQjQPD4HVo3eSg"><i class="fab fa-spotify"></i></a>
+            <a href="https://lucianomello.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+            <a href="https://soundcloud.com/lucianomello"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://www.youtube.com/user/lucianomello"><i class="fab fa-youtube"></i></a>
+        </header>
+       <div class="body"> 
+            <div class="logo">
+                <article>Luciano Mello <span>music</span></article>
+            </div>
+            <div class="lancamento">
+                    <img src="fruto.png" alt="Capa do novo Álbum de Luciano Mello, fruto proibido.">
+                    <iframe src="https://open.spotify.com/embed?uri=spotify:album:7vrE3h79fyZQh15JOpOUu3&theme=white&view=coverart" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="corpo">
+                
+                <iframe src="https://open.spotify.com/embed?uri=spotify:album:1zjYRcxI5XL139Sb36sRLo&theme=white&view=coverart" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed?uri=spotify:album:7vrE3h79fyZQh15JOpOUu3&theme=white&view=coverart" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                
+            </div>
         </div>
-    </label>
-    <ul>
-        <li><a href="#">Teu cabelo</a></li>
-        <li><a href="#">é</a></li>
-        <li><a href="#">rosa</a></li>
-    </ul>
+    </div>
 </body>
 </html>
