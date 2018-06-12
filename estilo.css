@@ -15,10 +15,12 @@ img{
     max-width: 100%;
 }
 #grid{
+    
     display: grid;
     grid-auto-rows: minmax(8vh, auto);
     grid-template-areas: "header"
-                         "main";
+                         "main"
+                         "footer";
                          
 }
 header{
@@ -54,14 +56,11 @@ header .social{
     background-color: whitesmoke;
 }
 main{
-	max-height: 100vh;
-	overflow-y: scroll;
     grid-area: main;
     display: grid;
     grid-auto-rows: minmax(8vh, auto);
     grid-template-areas: "principal"
-                         "passados"
-						 "footer";
+                         "passados";
 }
 #principal{
     grid-area: principal;
