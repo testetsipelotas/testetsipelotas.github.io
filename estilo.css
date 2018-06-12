@@ -19,9 +19,8 @@ img{
     display: grid;
     grid-auto-rows: minmax(8vh, auto);
     grid-template-areas: "header"
-                         "main"
-                         "footer";
-                         
+                         "main";
+                        
 }
 header{
     grid-area: header;
@@ -56,11 +55,14 @@ header .social{
     background-color: whitesmoke;
 }
 main{
+    max-height: 100vh;
+    overflow-y: scroll;
     grid-area: main;
     display: grid;
     grid-auto-rows: minmax(8vh, auto);
     grid-template-areas: "principal"
-                         "passados";
+                         "passados"
+                         "footer";
 }
 #principal{
     grid-area: principal;
