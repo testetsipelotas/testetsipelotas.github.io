@@ -20,6 +20,7 @@
     height: 30vw;
     border-radius: 50%;
     box-shadow: 10px 8px 13px;
+    animation: tremer 0s infinite;
 }
 #sobrancelhae{
     position: absolute;
