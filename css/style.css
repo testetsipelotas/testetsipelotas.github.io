@@ -1,0 +1,197 @@
+*{
+    border:0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+#desenho{
+    background:linear-gradient(black,gray);
+    height: 100vh;
+    width: 100vw;
+}
+#corpo{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: antiquewhite;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+#sobrancelhae{
+    position: absolute;
+    background-color: none;
+    width: 20%;
+    height: 8%;
+    margin-top: 22%;
+    margin-left:18%;
+    border-bottom:6px solid black;
+    border-radius:50%;
+}
+#sobrancelhad{
+    position: absolute;
+    background-color: none;
+    width: 20%;
+    height: 8%;
+    margin-top: 22%;
+    margin-left:48%;
+    border-bottom:6px solid black;
+    border-radius:50%;
+}
+#olhoe{
+    position: absolute;
+    background-color: black;
+    width: 6%;
+    margin-top: 30%;
+    margin-left:25%;
+    border-radius:50%;
+    animation: piscar 2s infinite;
+}
+#olhod{
+    position: absolute;
+    background-color: black;
+    width: 6%;
+    margin-top: 30%;
+    margin-left:55%;
+    border-radius:50%;
+    animation: piscar 2s infinite;
+}
+#bracoe{
+    position: absolute;   
+    background-color: antiquewhite;
+    width: 40%;
+    height: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    margin-left:-25%;
+    margin-top:40%;
+    transform:rotate(20deg);
+    box-shadow: -4px 1px;
+}
+#bracod{
+    position: absolute;   
+    background-color: antiquewhite;
+    width: 40%;
+    height: 20%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:50%;
+    margin-top:40%;
+    margin-left:90%;
+    transform: rotate(-20deg);
+    box-shadow: 4px 1px;
+}
+
+.dentinho{
+  display:inline-flex;
+  border-top: 2.5vw solid antiquewhite;
+  border-left: 1.25vw solid transparent;
+  border-right:1.25vw solid transparent;
+  max-width:0%;
+  max-height:0%;
+}
+.dentinho-menor{
+  border-top: 1vw solid white;
+  border-left: .5vw solid transparent;
+  border-right:.5vw solid transparent;
+  max-width:0%;
+  max-height:0%;
+}
+#dentes{
+  position:relative;
+  display:flex;
+  justify-content: flex-start;
+  width:100%;
+  height:100%;
+}
+#boca{
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    margin-top: 60%;
+    margin-left:30%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    animation: fecharboca 5s infinite;
+}
+#lingua{
+    position: absolute;   
+    background-color: pink;
+    width: 50%;
+    height: 80%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:30%;
+    border-top-right-radius:30%;
+    margin-top:-50%;
+    margin-left:5%;
+    transform: rotate(20deg);
+    z-index:1;
+    animation: desaparecer 5s infinite;
+}
+#fissura-lingua{
+  height: 60%;
+  width: 3%;
+  margin-left: 45%;
+  margin-top: 40%;
+  background-color: black;
+}
+#boca-fundo{
+    position:absolute;
+    width:100%;
+    height:60%;
+    border-top-left-radius:30%;
+    border-top-right-radius:10%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    margin-top:-60%;
+    background-color:black;
+    animation: desaparecer 5s infinite;
+}
+@keyframes piscar{
+  0%{
+    height:1%;
+  }
+  20%{
+    height:10%;
+  }
+  100%{
+    height:10%;
+  }
+}
+@keyframes fecharboca{
+  0%{
+    height: 0%;
+  }
+  50%{
+    height: 35%;
+  }
+  75%{
+    height: 35%;
+  }
+  100%{
+    height: 0%;
+  }
+}
+@keyframes desaparecer{
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  21%{
+    opacity: 1;
+  }
+  79%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
