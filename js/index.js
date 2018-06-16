@@ -12,6 +12,7 @@
     document.getElementById("boca-fundo").style.backgroundColor="antiquewhite";
     document.getElementById("lingua").style.backgroundColor="antiquewhite";
     document.getElementById("fissura-lingua").style.backgroundColor="antiquewhite";
+    document.getElementById("corpo").style.animation="tremer .1s infinite";
   }
 function revela(){
   document.getElementById("bracoe").style.transform="rotate(20deg)";
@@ -24,4 +25,5 @@ function revela(){
   document.getElementById("boca-fundo").style.backgroundColor="black";
   document.getElementById("lingua").style.backgroundColor="pink";
   document.getElementById("fissura-lingua").style.backgroundColor="black";
+  document.getElementById("corpo").style.animation="tremer 0s infinite";
 }
