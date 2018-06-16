@@ -195,11 +195,12 @@
   100%{
     opacity: 0;
   }
-    @keyframes tremer{
+ 
+}
+   @keyframes tremer{
   from{
     margin-left:auto;
   }
   to{
     margin-left:34.5%;
   }
-}
