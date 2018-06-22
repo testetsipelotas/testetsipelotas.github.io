@@ -1,0 +1,418 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+fieldset{
+    border: 0;
+}
+input, body, select, textarea, button{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+body{
+    background-color: rgb(227, 221, 231) ; 
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+#textoinicio h1{
+    color: #260339;
+    text-indent: 30px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 35pt;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+#textoinicio p{
+    color: #260339;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 18pt;
+    padding: 20px;
+}
+a{
+    color: #7f499c;
+    text-decoration: none;
+    font-size: 15pt;
+}
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+div#interface {
+    width: 82.5%;
+    height: auto;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    margin: -10px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 1px;
+
+}
+
+header#topo{
+    height:100%;
+    width: 82.5%;
+}
+header#topo img#capa{
+    background-color: #7f499c;
+    margin: -100px auto -80px auto;
+    width: 121.2%;          
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 380px;
+    }
+nav#menu li{
+    display: inline-block;
+    background-color: (1,1,1);
+    padding: 10px 18px;
+    border-radius: 60%;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+nav#menu a{
+    color:#ffffff;
+    font-size: 18pt;
+}
+nav#menu a:hover{
+    color:#7f499c
+}
+nav#menu li:hover{
+    background-color:#ffffff;
+}
+nav#menu h1{
+    display: none;
+}
+footer#rodape{
+    background-color: #7f499c;
+    width: 82.7%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+footer#rodape p{
+    color:#fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 12pt;
+}
+/*ESTILIZAÇÃO GERAL DAS PÁGINAS INTERNAS*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 15pt;
+    background-size: 100%;       
+}
+p{
+    text-align: justify;
+    text-indent: 30pt;
+    padding: 15px;
+}
+#cabecalho{
+    background-color: #7f499c;
+    border-bottom: 1px #7f499c solid;
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+}
+header#cabecalho img#logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 35px 50px 20px 20px;
+    opacity: 0.3;
+}
+header#cabecalho h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 60pt;
+    text-align: left;
+    padding: 50px;
+}
+#corpo{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+}
+#corpo h1{
+    font-size: 35pt;
+    text-align: left;
+    color: #3d1255;
+    padding: 25px;
+}
+#corpo h2{
+    padding: 30px;
+    color:#3d1255;
+    text-align: left;
+    font-size: 20pt;
+}
+#corpo h3{
+    padding: 35px;
+    text-align: center;
+    color: #3d1255;
+}
+#corpo h4{
+    color: #3d1255;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom:10px; 
+}
+#corpo p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 15pt;
+    padding: 10px;
+}
+a{
+    color: #7f499c;
+    text-decoration: none;
+    font-size: 15pt;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+
+}
+
+/*ESTILIZAÇÃO DA PÁGINA PRODUTOS*/
+#produtos{
+    width: 82%;
+    height: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: #ffffff;
+}
+a{
+    color: #45185e;
+    text-decoration: none;
+    font-size: 15pt;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+
+}
+#produtos p{
+    margin:30px auto 30px auto;
+}
+#corpo hr{
+    border: 0.5px solid #260339;
+}
+
+#prod h2{
+    color: #260339;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+}
+ol li{
+    background-color: #a990b6;
+    margin: 20px;
+    text-align: justify;
+    list-style: decimal;
+    padding: 5px;
+    color: #000;
+}
+#corpo img{
+    border: 5px solid #260339;
+    margin: 30px;
+    margin: 10px 10px 20px 148px;
+}
+#galeria img.prod{
+    position: relative;
+    border: 10px solid #260339;
+    width: 30%;
+    height: 30%;
+}
+#fotos img{
+    width: 70%;
+    height: 70%;
+}
+/*ESTILIZAÇÃO DA PÁGINA HAMA BEADS*/
+#hamabeads{
+    width: 81.8%;
+    height: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: #ffffff;
+}
+#galeria img{
+    border: 3px solid #260339;
+    margin: 10pt 5pt 20pt 14pt;
+}
+/*ESTILIZAÇÃO DA PÁGINA CONTATO*/
+#contato{
+    width: 82.5%;
+    height: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: #ffffff;
+}
+.campo{
+    margin-bottom: 1em;
+    padding: 10px 25px;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+    color: #3d1255;
+}
+.option{
+    margin-bottom: 1em;
+    padding: 10px 25px;
+}
+b{
+    color: #3d1255;
+}
+.option label{
+    margin-bottom: 0.2em;
+    display: inline-block;
+    color: #3d1255;
+    padding: 10px;
+}
+.check{
+    margin-bottom: 1em;
+    padding: 10px 25px;
+    display: block;
+    color: #3d1255;
+}
+.check label{
+    margin-bottom: 0.2em;
+    display: inline-block;
+    color: #3d1255;
+    padding: 10px;
+}
+textarea{
+    box-sizing: border-box;
+    border:2px solid #c191db;
+    padding: 10px 25px;
+    margin-left:30px;
+    margin-bottom: 5px;
+}
+.button{
+    margin-left: 30px;
+    background-color: #7f499c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #c191db;
+}
+input[type=text]{
+    border: 2px solid #7a4e92;
+    border-radius: 5px;
+}
+.midias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #3d1255;
+    margin:50px 120px 1px 120px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 15px;
+    border-radius: 60%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #531874;
+    color: white;
+  }
+
+/*ESTILIZAÇÃO DA PÁGINA PREÇOS*/
+#valores{
+    width: 81.8%;
+    height: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: #ffffff;
+    
+}
+table.tab{
+    float: none;
+    padding: 0px;
+    border-spacing: 0px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table caption{
+    padding: 10px;
+    font-size: 15pt;
+    color:#3d1255;
+    text-align: center;
+}
+table td{
+    text-align: center;
+}
+table th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+table tr:hover {
+    background-color: #f5f5f5;
+}
+table tr:nth-child(even) {/*as cores de fundo da tabela variam, criando um padrão listrado, como uma "zebra"*/
+    background-color: #CDC7D0;
+}
+table th {
+    background-color: #7a4e92;
+    color: white;
+}
+#valores h2{
+    color: #3d1255;
+    font-size: 20pt;
+    text-align: left;
+    padding: 30px;
+}
+#valores p{
+    padding-bottom: 35px;
+}
+#valores h3{
+    border: #260339 solid 2px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px;
+}
+

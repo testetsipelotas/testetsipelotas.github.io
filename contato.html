@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="shortcut icon" href="_imagens/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="contato">
+        <header id="cabecalho">
+            <img id='logo' src="_imagens/logo.png" align="right" width="100px" height="100px">
+            <h1>Contato</h1>
+        </header>
+        <div id="corpo">
+            <a href="site.html">Voltar para a Página Inicial</a>
+            <h1>Fale Conosco!</h1>
+            <h2>Preencha os campos abaixo:</h2>
+            <form action="dados.php" method="post">
+                <fieldset>
+                    <div class="campo">
+                        <label for="Nome">Nome: </label>
+                        <input type="text" name="Nome" size="45" />
+                    </div>
+                    <div class="campo">
+                        <label for="Sobrenome">Sobrenome:</label>
+                        <input type="text" name="Sobrenome" size="45" />
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail: </label>
+                        <input type="text" name="email" size="45" />
+                    </div>
+                    <div class="option">
+                        <b>Sexo:</b>
+                        <label class="checkbox">
+                            <input type="radio" name="sexo" value="masculino" />Masculino</label>
+                        <label class="checkbox">
+                            <input type="radio" name="sexo" value="feminino" />Feminino</label>
+                        <label class="checkbox">
+                            <input type="radio" name="sexo" value="outro" />Outro</label>
+                    </div>
+
+                    <div class="check">Desejo receber notificações sobre novidades e promoções por email:
+                        <label class="checkbox">
+                            <input type="checkbox" name="aceito" size="25" />SIM</label>
+
+                    </div>
+                    <div class="texto">
+                        <h2>Dúvidas, reclamações e outros:</h2>
+                        <textarea id="mensagem" name="mensagem" rows=10 cols="50" placeholder="Digite sua mensagem aqui:"></textarea>
+                        <br>
+
+                    </div>
+                    <button class="button" type="submit" value="Enviar">Enviar</button>
+                    <button class="button" type="reset" value="Cancelar">Cancelar</button>
+                    <div class="midias">
+                        <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/bixelshop/"></a>
+                        <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/bixelshop/"></a>
+
+
+                        <p>Email: contato@bixel.com.br</p>
+                        <p>Whatsapp:(53) 99192-2192</p>
+                    </div>
+        </div>
+    </div>
+    </fieldset>
+    </form>
+    <footer id="rodape">
+        <p>Copyright &copy; 2018 - by Gabriela Marques Fernandes Poncet
+            <br/>
+            <a href="https://www.facebook.com/gabi.poncet.77" target="_blank">Facebook </a>
+        </p>
+    </footer>
+</body>
+
+</html>
